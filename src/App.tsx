@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { JSX, useState } from "react"
+import {Todos} from './components/Todos'
 
 const mockTodo = [
   {
@@ -19,10 +20,11 @@ const mockTodo = [
 ]
 
 
-const App= ()=> {
+const App= ():JSX.Element=> {
   const [todos] = useState(mockTodo)
   return (
     <>
+    <Todos todos={todos}/>
     <h1>Probando</h1>
     </>
   )
