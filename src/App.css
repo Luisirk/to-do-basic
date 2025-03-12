@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.todoapp {
+  background-color: #c7aeae;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
