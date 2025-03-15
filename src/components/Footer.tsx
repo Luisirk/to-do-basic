@@ -1,6 +1,8 @@
 import { FilterValue} from '../types'
 import{Filters} from './Filters'
-interface Props{
+
+
+ interface Props{
     activeCount: number
     completedCount : number
     filterSelected: FilterValue

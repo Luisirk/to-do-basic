@@ -1,4 +1,4 @@
-import React from "react"
+
 import { FILTERS_BUTTONS } from "../const"
 import { type FilterValue } from "../types"
 
@@ -14,7 +14,7 @@ export const Filters: React.FC<Props> = (
             {
                 Object.entries(FILTERS_BUTTONS).map(([key, { href, literal }]) => {
                     const isSelected = key === filterSelected
-                    const className = isSelected ? 'selected' : ''
+                    const className = isSelected ? 'selected' : ''  
 
                     return (
                         <li key={key}>
