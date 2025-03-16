@@ -12,12 +12,17 @@ const mockTodo = [
   },
   {
     id: '2',
-    title: 'Darle un beso a Ester',
+    title: 'Una servesita ?? ',
     completed: false,
   },
   {
     id: '3',
-    title: 'Darle un abrazo a Ester',
+    title: 'Dos servesas por favor',
+    completed: true,
+  },
+  {
+    id: '4',
+    title: '444 servesas por favor',
     completed: true,
   }
 ]
